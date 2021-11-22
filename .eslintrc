@@ -1,7 +1,0 @@
-{
-  "root": true,
-  "extends": "starry",
-  "rules": {
-    "no-var": 0,
-  }
-}
