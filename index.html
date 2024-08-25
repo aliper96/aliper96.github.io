@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Hamza - Generative AI Researcher</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">ALI</a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#desktop-apps">Desktop Apps</a></li>
+                    <li><a href="#mobile-apps">Mobile Apps</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Ali Hamza</h1>
+                <h2>PhD Student in Generative Artificial Intelligence</h2>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>As a professional with expertise in machine learning and advanced C++ and Qt, I am well-equipped to tackle complex projects and deliver high-quality results. My research focuses on generative multimodal artificial intelligence, including work with LLMs, PEFT, and diffusion models.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/ali.jpeg" alt="Ali Hamza" width="200" height="200">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="education-timeline">
+                    <div class="education-item">
+                        <h3>Doctor of Philosophy - PhD, Generative Artificial Intelligence</h3>
+                        <p>UPV/EHU</p>
+                        <p>September 2023 - September 2026 (Expected)</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Master's degree, Artificial Intelligence</h3>
+                        <p>UPV/EHU</p>
+                        <p>2020 - 2021</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Bachelor's degree, Computer Engineering</h3>
+                        <p>UPV/EHU</p>
+                        <p>2016 - 2020</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>High School Diploma, Scientific-Technological Track</h3>
+                        <p>IES UNI EIBAR-ERMUA</p>
+                        <p>2014 - 2016</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <ul id="skill-list" class="skill-list">
+                    <!-- Skills will be dynamically added here using jQuery -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div id="experience-timeline" class="timeline">
+                    <!-- Experience items will be dynamically added here using jQuery -->
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div id="project-gallery" class="project-grid">
+                    <!-- Project items will be dynamically added here using jQuery -->
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Courses</h2>
+                <div class="course-container">
+                    <!-- Courses will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="desktop-apps" class="desktop-apps">
+            <div class="container">
+                <h2 class="section-title">Desktop Applications</h2>
+                <div class="app-container">
+                    <!-- Desktop app videos will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="mobile-apps" class="mobile-apps">
+            <div class="container">
+                <h2 class="section-title">Mobile Applications</h2>
+                <div class="app-container">
+                    <!-- Mobile app videos will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ali Hamza. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ali-hamza-9915865b" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- Add more social links as needed -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
