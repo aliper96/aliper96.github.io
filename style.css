@@ -316,3 +316,57 @@ footer {
 .glow-effect {
     animation: glow 2s infinite;
 }
+
+/* Education Section */
+.education {
+    padding: 50px 0;
+}
+
+.education-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education-item {
+    background: linear-gradient(45deg, #1e1e1e, #2a2a2a);
+    border: 2px solid #64ffda;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(100,255,218,0.2);
+}
+
+.education-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #64ffda, #1de9b6);
+}
+
+.education-item h3 {
+    color: #ffffff;
+    margin-top: 0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    color: #b0b0b0;
+    margin: 5px 0;
+}
+
+.education-item p:last-child {
+    color: #64ffda;
+    font-weight: 500;
+}
