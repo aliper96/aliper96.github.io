@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Skills
     const skills = [
-        "Machine Learning", "Generative AI", "LLMs", "PEFT", "Diffusion Models",
+        "Machine Learning","DDL", "Transformers", "VLM", "Generative AI", "LLMs", "PEFT", "Diffusion Models",
         "C++", "Qt", "Python", "Keras", "PyTorch", "TensorFlow",
         "Computer Vision", "Cloud Computing", "IoT", "AWS"
     ];
@@ -139,10 +139,6 @@ $(document).ready(function() {
             {
                 title: "BackPropagation Explicada",
                 youtubeId: "zsU4QjCqNko"  // Replace with actual YouTube video ID
-            },
-            {
-                title: "El origen del Attention Mechanism",
-                youtubeId: "m50k9cBTUQo"  // Replace with actual YouTube video ID
             },
             {
                 title: "LLM desde Cero",
