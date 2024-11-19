@@ -370,3 +370,19 @@ footer {
     color: #64ffda;
     font-weight: 500;
 }
+.download-cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.download-cv:hover {
+    background-color: #0056b3;
+}
